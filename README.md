@@ -8,7 +8,6 @@ Munetios Tasks:
 Categories: Yes  
 Share: Yes  
 Use privately: Yes  
-Create a task using a URL: Yes  
 
 ---
 
@@ -18,8 +17,6 @@ Create a task using a URL: Yes
 |-----------------------------------|---------------|--------------|
 | Categories                        | Yes           | No           |
 | Share tasks                       | Yes           | No           |
-| Private mode                      | Yes           | No           |
-| Create via URL                    | Yes           | No           |
 | Archive tasks                     | Yes           | No           |
 | Favorite/Pin tasks                | Yes           | Yes (Starred)           |
 | Cross-device sync                 | Planned       | Yes          |
