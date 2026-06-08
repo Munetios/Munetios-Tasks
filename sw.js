@@ -1,10 +1,24 @@
-/* GAMERYT Tasks Service Worker */
-const CACHE_NAME = "gameryt-tasks-v1";
+/* Munetios Tasks Service Worker */
+const CACHE_NAME = "munetios-tasks-v2";
 const PRECACHE = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
-  "./favicon.ico"
+  "./favicon.ico",
+  "/android-chrome-192x192.png",
+  "/android-chrome-512x512.png",
+  "/apple-touch-icon.png",
+  "/favicon-16x16.png",
+  "/favicon-32x32.png",
+  "https://api.munetios.com/beautiful-css/beautiful.css",
+  "https://api.munetios.com/fonts/google-sans-flex/googlesansflex.ttf",
+  "https://api.munetios.com/fonts/material-symbols/MaterialSymbolsRounded-VariableFont_FILL\,GRAD\,opsz\,wght.ttf",
+  "https://api.munetios.com/fonts/inter/inter.ttf",
+  "https://api.munetios.com/fonts/open-sans/opensans.ttf",
+  "https://api.munetios.com/fonts/roboto/roboto.ttf",
+  "https://api.munetios.com/fonts/google-sans/googlesans.ttf",
+  "https://api.munetios.com/fonts/lexend/lexend.ttf",
+  "https://api.munetios.com/fonts/poppins/Poppins-Regular.ttf",
 ];
 
 // Install
